@@ -24,11 +24,14 @@ img {
 
 .side-header {
   background: lightgray;
+  width: 300px;
 }
+
 
 
 .main-header {
   color: white;
+  width: calc(100% - 300px);
 }
 
 #right {
