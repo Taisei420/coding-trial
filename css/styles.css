@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+html {
+ font-size: 100%;
+}
+body {
+   font-family: "yu gothic","游ゴシック Medium",YuGothic, "游ゴシック体","ヒラギノ角ゴ　Pro W3",sans-serif;
+ line-height: 1.7;
+       color: #432;
+}
+a {
+ text-decoration: none;
+}
+img {
+ max-width: 100%;
+}
+
+/* header 
+------------------------------ */
+.main-nav {
+  display:flex;
+  justify-content: space-around;
+  list-style: none;
+  background: #f6efdb;
+  padding: 0;
+}
+
+.main-nav li {
+  padding: 25px;
+}
