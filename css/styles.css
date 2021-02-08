@@ -17,6 +17,28 @@ img {
 
 /* header 
 ------------------------------ */
+
+.wrapper {
+  display: flex;
+}
+
+.side-header {
+  background: lightgray;
+}
+
+
+.main-header {
+  background: lightgray;
+}
+
+#right {
+  background-image: url(../images/pic01.jpg);
+  min-height: 100vh;
+}
+
+
+
+
 .main-nav {
   display:flex;
   justify-content: space-around;
