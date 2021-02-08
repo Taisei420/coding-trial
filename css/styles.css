@@ -13,7 +13,10 @@ body {
 }
 
 .side-header {
-  background: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EBE7DE;
   width: 300px;
 }
 
@@ -26,6 +29,17 @@ body {
   background-image: url(../images/pic01.jpg);
   background-size: cover;
   min-height: 100vh;
+  position: relative;
+}
+
+p {
+  position: absolute;
+  left: 65px;
+  bottom: 34px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 135%;
+  text-shadow: 2px 3px 3px #4d423c;
 }
 
 /* ナビゲーション
