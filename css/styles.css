@@ -103,10 +103,14 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
 }
 .back1 h2 {
   font-weight: bold;
   font-size: 20px;
+}
+.back1 p {
+  margin-top: 10px;
 }
   
 
@@ -128,10 +132,14 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
   }
   .back2 h2 {
     font-weight: bold;
     font-size: 20px;
+  }
+  .back2 p {
+    margin-top: 10px;
   }
   
 
@@ -153,10 +161,14 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
   }
   .back3 h2 {
     font-weight: bold;
     font-size: 20px;
+  }
+  .back3 p {
+    margin-top: 10px;
   }
   
 
@@ -179,8 +191,12 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
 }
 .back4 h2 {
   font-weight: bold;
   font-size: 20px;
+}
+.back4 p {
+  margin-top: 10px;
 }
