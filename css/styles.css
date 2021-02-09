@@ -101,6 +101,13 @@ nav {
   opacity: 0.5;
   width: 280px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back1 h2 {
+  font-weight: bold;
+  font-size: 20px;
 }
   
 
@@ -119,6 +126,13 @@ nav {
   opacity: 0.5;
   width: 280px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .back2 h2 {
+    font-weight: bold;
+    font-size: 20px;
   }
   
 
@@ -137,6 +151,13 @@ nav {
   opacity: 0.5;
   width: 280px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .back3 h2 {
+    font-weight: bold;
+    font-size: 20px;
   }
   
 
@@ -156,5 +177,11 @@ nav {
   opacity: 0.5;
   width: 280px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-  
+.back4 h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
