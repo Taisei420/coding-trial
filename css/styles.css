@@ -40,6 +40,7 @@ h1 {
   font-weight: bold;
   line-height: 135%;
   text-shadow: 2px 3px 3px #4d423c;
+  color: white;
 }
 
 /* ナビゲーション
@@ -68,7 +69,13 @@ nav {
 -------------------------------- */
 
 .main {
-  padding: 100px 0;
+  /* padding: 100px 0; */
+}
+.main-header {
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+  color: #262827;
 }
 
 
@@ -77,6 +84,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows : 1fr 1fr 1fr;
+  margin-top: 80px;
 }
 
 .item1 {
@@ -106,10 +114,7 @@ nav {
   opacity: 0.5;
   width: 250px;
   height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  }
 
 .item3 {
   grid-column: 2/3;
@@ -124,8 +129,7 @@ nav {
   opacity: 0.5;
   width: 250px;
   height: 80px;
-  
-}
+  }
 
 
 .item4 {
@@ -141,7 +145,4 @@ nav {
   opacity: 0.5;
   width: 250px;
   height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
