@@ -71,6 +71,8 @@ nav {
   padding: 100px 0;
 }
 
+
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -84,6 +86,12 @@ nav {
   background-image: url(../images/pic02.jpg);
   background-size: cover;
 }
+.back1 {
+  background: #ffffff;
+  opacity: 0.5;
+  width: 250px;
+  height: 80px;
+}
 
 .item2 {
   grid-column: 1/2;
@@ -92,6 +100,15 @@ nav {
   text-align: center;
   background-image: url(../images/pic03.jpg);
   background-size: cover;
+}
+.back2 {
+  background: #ffffff;
+  opacity: 0.5;
+  width: 250px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .item3 {
@@ -102,6 +119,13 @@ nav {
   background-image: url(../images/pic04.jpg);
   background-size: cover;
 }
+.back3 {
+  background: #ffffff;
+  opacity: 0.5;
+  width: 250px;
+  height: 80px;
+  
+}
 
 
 .item4 {
@@ -111,4 +135,13 @@ nav {
   text-align: center;
   background-image: url(../images/pic05.jpg);
   background-size: cover;
+}
+.back4 {
+  background: #ffffff;
+  opacity: 0.5;
+  width: 250px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
