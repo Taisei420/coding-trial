@@ -29,7 +29,7 @@ body {
 #right {
   background-image: url(../images/pic01.jpg);
   background-size: cover;
-  min-height: 100vh;
+  min-height: 512px;
   position: relative;
 }
 
@@ -72,12 +72,15 @@ nav {
   text-align: center;
 } 
 
-.main-nav li a {
+.main-nav li  a {
   display: block;
   margin: 12.5px 0;
   padding: 4px;
   border-right: 1px dotted #666;
   color: #513E2F;
+}
+.main-nav li:last-child a {
+  border-right: 0;
 }
 
 .main-nav li.active a {
@@ -87,6 +90,8 @@ nav {
 .main-nav li a:hover {
   background: #503E30;
   color: #ffffff;
+  padding: 16.5px 0;
+  margin: 0;
 }
                 
 /* .main-nav li:not(:first-child, :last-child) {
@@ -182,12 +187,21 @@ nav {
   align-items: center;
   flex-flow: column;
   color: #513E2F;
+  transition: all 300ms 0s ease;
 }
+
+.item-contents:hover {
+  background: #513E2F;
+  color: #ffffff;
+  opacity: .7;
+}
+
 .item-contents h2 {
   font-weight: bold;
   font-size: 24px; 
   margin-left: 24px;
 }
+
 .item-contents .item-contents-comment {
   display: flex;
   align-items: center;
@@ -195,6 +209,7 @@ nav {
   font-size: 13px;
   letter-spacing: 2px;
 }
+
 .item-contents .item-contents-comment:after {
   content: '';
   display: block;
@@ -206,19 +221,22 @@ nav {
 }
 
 .contact {
-  
   padding: 150px;
   text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .button{
   border: 1px #262827 solid;
   padding: 10px;
   width: 200px;
   height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
+  
 
 
   
