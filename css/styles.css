@@ -50,34 +50,41 @@ h1 {
 nav {
   background: #efefef;
 }
+
 .active {
   background: #503E30;
   color: #ffffff;
 }
+
 .main-nav {
   display:flex;
   justify-content: space-between;
   list-style: none;
   width: 100%;
-  
   }
+
 .main-nav li {
   width: calc(100% / 5);
   font-size: 12px;
   text-align: center;
 } 
+
 .main-nav li a {
   display: block;
-  padding: 20px 0;
+  margin: 12.5px 0;
+  padding: 4px;
+  border-right: 1px dotted #666;
+  color: #513E2F;
 }
+
 .main-nav li a:hover {
   background: #503E30;
   color: #ffffff;
 }
                 
-.main-nav li:not(:first-child, :last-child) {
+/* .main-nav li:not(:first-child, :last-child) {
   border-right: 1px dotted #666;
-}
+} */
   
                   
 
