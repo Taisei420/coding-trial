@@ -57,7 +57,7 @@ nav {
   justify-content: space-between;
   list-style: none;
   width: 100%;
-  max-width: 1120px;
+  /* max-width: 1120px; */
   }
   
 
@@ -97,14 +97,6 @@ nav {
 }
 
 
-.back1 p :after {
-  content: '';
-  display: inline-block;
-  width: 21px;
-  height: 10px;
-  background: url(../images/arrow01.png);
-}
-
 .box {
   width: 90%;
   max-width: 280px;
@@ -119,24 +111,6 @@ nav {
   background-image: url(../images/pic02.jpg);
   background-size: cover;
 }
-.back1 {
-  background: #ffffff;
-  background: rgb(255 255 255 / 70%);
-  width: 280px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-}
-.back1 h2 {
-  font-weight: bold;
-  font-size: 20px;
-}
-.back1 p {
-  margin-top: 10px;
-}
-  
 
 .item2 {
   grid-column: 1/2;
@@ -148,25 +122,7 @@ nav {
   background-image: url(../images/pic03.jpg);
   background-size: cover;
 }
-.back2 {
-  background: #ffffff;
-  background: rgb(255 255 255 / 70%);
-  width: 280px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  }
-  .back2 h2 {
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .back2 p {
-    margin-top: 10px;
-  }
   
-
 .item3 {
   grid-column: 2/3;
   grid-row: 2/3;
@@ -177,25 +133,6 @@ nav {
   background-image: url(../images/pic04.jpg);
   background-size: cover;
 }
-.back3 {
-  background: #ffffff;
-  background: rgb(255 255 255 / 70%);
-  width: 280px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  }
-  .back3 h2 {
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .back3 p {
-    margin-top: 10px;
-  }
-  
-
 
 .item4 {
   grid-column: 3/4;
@@ -207,20 +144,35 @@ nav {
   background-image: url(../images/pic05.jpg);
   background-size: cover;
 }
-.back4 {
-  background: #ffffff;
+  
+.item-contents {
   background: rgb(255 255 255 / 70%);
-  width: 280px;
+  width: 80%;
+  max-width: 280px;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  color: #513E2F;
 }
-.back4 h2 {
+.item-contents h2 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 24px; 
 }
-.back4 p {
-  margin-top: 10px;
+.item-contents .item-contents-comment {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.item-contents .item-contents-comment:after {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 4px;
+  margin-left: 4px;
+  background: url(../images/arrow01.png) 0 center no-repeat;
+  background-size: 100%;
 }
