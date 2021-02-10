@@ -49,8 +49,12 @@ h1 {
 
 nav {
   background: #f6efdb;
-  
 }
+.active {
+  background: #503E30;
+  color: #ffffff;
+}
+  
 
 .main-nav {
   display:flex;
@@ -79,8 +83,9 @@ nav {
   color: #262827;
 }
 .main-header a {
-  margin: 25px 0 0 38px;
+  margin: 20px 0 0 38px;
   font-size: 12px;
+  text-decoration: underline;
 }
 .main-header img {
   margin: 2.5px;
