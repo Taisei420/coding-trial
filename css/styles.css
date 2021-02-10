@@ -93,12 +93,6 @@ nav {
   padding: 16.5px 0;
   margin: 0;
 }
-                
-/* .main-nav li:not(:first-child, :last-child) {
-  border-right: 1px dotted #666;
-} */
-  
-                  
 
 
 
@@ -220,8 +214,11 @@ nav {
   background-size: 100%;
 }
 
+/* お問い合わせ
+---------------------------------------------- */
+
 .contact {
-  padding: 150px;
+  padding: 125px 0 134px;
   text-align: center;
   margin: 0;
   display: flex;
@@ -231,25 +228,29 @@ nav {
 }
 .contact p {
   margin-bottom: 20px;
+  color: #513E2F;
 }
 
 .button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px #262827 solid;
   padding: 10px;
   width: 200px;
   height: 50px;
   color: #513E2F;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  transition: all 300ms 0s ease;
 }
-.contact a {
-  text-align: center;
+.button:hover {
+  background: #513E2F;
+  color: #ffffff;
+  opacity: .7;
 }
-
-
   
+
+
 
 
   
