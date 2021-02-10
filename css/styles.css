@@ -95,6 +95,19 @@ nav {
   margin-top: 80px;
 }
 
+p {
+  display: flex;
+  align-items: center;
+}
+.arrow :after {
+  content: '';
+  display: block;
+  width: 21px;
+  height: 10px;
+  margin-left: 10px;
+  background: url(../images/arrow01.png) 0 center no-repeat;
+}
+
 .item1 {
   grid-column: 1/4;
   padding: 50px;
