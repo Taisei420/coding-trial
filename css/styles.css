@@ -57,6 +57,7 @@ nav {
   justify-content: space-between;
   list-style: none;
   width: 100%;
+  max-width: 1120px;
   }
   
 
@@ -95,17 +96,13 @@ nav {
   margin-top: 80px;
 }
 
-p {
-  display: flex;
-  align-items: center;
-}
-.arrow :after {
+
+.back1 p :after {
   content: '';
-  display: block;
+  display: inline-block;
   width: 21px;
   height: 10px;
-  margin-left: 10px;
-  background: url(../images/arrow01.png) 0 center no-repeat;
+  background: url(../images/arrow01.png);
 }
 
 .box {
