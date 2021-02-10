@@ -73,7 +73,7 @@ nav {
 } 
 
 li+ li {
-  border-left: 1px solid #333;
+  border-left: 1px dotted #333;
 }
 
 /* メイン
