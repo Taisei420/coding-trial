@@ -67,10 +67,14 @@ nav {
 
 .main-nav li {
   width: calc(100% / 5);
-  padding: 20px 0;
+  /* padding: 20px 0; */
   font-size: 12px;
   text-align: center;
 } 
+.main-nav li a {
+  display: block;
+  padding: 20px 0;
+}
 
 .main-nav li:not(:first-child, :last-child) {
   border-right: 1px dotted #666;
@@ -188,6 +192,20 @@ nav {
   background-size: 100%;
 }
 
+.contact {
+  
+  padding: 150px;
+  text-align: center;
+}
+.button{
+  border: 1px #262827 solid;
+  padding: 10px;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
   
