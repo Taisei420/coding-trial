@@ -72,9 +72,13 @@ nav {
   text-align: center;
 } 
 
-li+ li {
-  border-left: 1px dotted #333;
+.main-nav li:not(:first-child, :last-child) {
+  border-right: 1px dotted #666;
 }
+
+/* li+ li {
+  border-left: 0.8px dotted #333;
+} */
 
 /* メイン
 -------------------------------- */
@@ -173,7 +177,7 @@ li+ li {
   margin-left: 4px;
   background: url(../images/arrow01.png) 0 center no-repeat;
   background-size: 100%;
-}　
+}
 
 
 
