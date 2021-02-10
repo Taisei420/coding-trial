@@ -55,7 +55,7 @@ nav {
   background: #503E30;
 }
 
-.active a {
+ .active a {
   color: #ffffff;
 }
 
@@ -77,7 +77,11 @@ nav {
   margin: 12.5px 0;
   padding: 4px;
   border-right: 1px dotted #666;
-  /* color: #513E2F; */
+  color: #513E2F;
+}
+
+.main-nav li.active a {
+  color: #ffffff;
 }
 
 .main-nav li a:hover {
