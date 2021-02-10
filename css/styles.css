@@ -17,12 +17,12 @@ body {
   align-items: center;
   justify-content: center;
   background: #EBE7DE;
-  width: 300px;
+  width: 287px;
 }
 
 .main-header {
   color: white;
-  width: calc(100% - 300px);
+  width: calc(100% - 287px);
 }
 
 #right {
@@ -48,23 +48,24 @@ h1 {
 
 nav {
   background: #f6efdb;
+  
 }
 
 .main-nav {
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
   width: 100%;
-  max-width: 1200px;
-  margin: auto;
+  /* max-width: 1200px; */
+  /* margin: auto; */
 }
 
 .main-nav li {
   width: calc(100% / 5);
-  padding: 13px 0;
+  padding: 20px 0;
   font-size: 12px;
   text-align: center;
-}
+} 
 
 /* メイン
 -------------------------------- */
@@ -73,8 +74,16 @@ nav {
 .main-header {
   display: flex;
   justify-content: flex-end;
-  margin: auto;
+  margin: 0 auto;
   color: #262827;
+}
+.main-header a {
+  margin: 25px 0 0 38px;
+  font-size: 12px;
+}
+.main-header img {
+  /* margin-right: 5px; */
+  margin: 2.5px;
 }
 
 
