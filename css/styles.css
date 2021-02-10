@@ -48,26 +48,21 @@ h1 {
 -------------------------------- */
 
 nav {
-  background: #f6efdb;
+  background: #efefef;
 }
 .active {
   background: #503E30;
   color: #ffffff;
 }
-  
-
 .main-nav {
   display:flex;
   justify-content: space-between;
   list-style: none;
   width: 100%;
-  /* max-width: 1120px; */
-  }
   
-
+  }
 .main-nav li {
   width: calc(100% / 5);
-  /* padding: 20px 0; */
   font-size: 12px;
   text-align: center;
 } 
@@ -75,14 +70,18 @@ nav {
   display: block;
   padding: 20px 0;
 }
-
+.main-nav li a:hover {
+  background: #503E30;
+  color: #ffffff;
+}
+                
 .main-nav li:not(:first-child, :last-child) {
   border-right: 1px dotted #666;
 }
+  
+                  
 
-/* li+ li {
-  border-left: 0.8px dotted #333;
-} */
+
 
 /* メイン
 -------------------------------- */
