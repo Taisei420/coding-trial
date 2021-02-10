@@ -72,6 +72,10 @@ nav {
   text-align: center;
 } 
 
+li+ li {
+  border-left: 1px solid #333;
+}
+
 /* メイン
 -------------------------------- */
 
