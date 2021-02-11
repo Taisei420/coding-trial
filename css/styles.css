@@ -298,6 +298,17 @@ footer img {
   .item-contents {
     
   }
+
+  /* フッター */
+  footer {
+
+  }
+  footer p {
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+  }
+  
 }
   
 
