@@ -255,10 +255,16 @@ nav {
 footer {
   background: #513E2F;
   padding: 86px 0;
+  position: relative;
 }
 footer p {
   margin: 0 auto;
   color: #fff;
+}
+footer img {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
   
 
