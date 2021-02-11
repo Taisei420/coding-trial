@@ -312,25 +312,19 @@ footer img {
     display: none;
   }
 
-  /* .main-header {
-    width: 100%;
-  }
-
-  .main-header {
-    text-align: center;
-  } */
-
   .item-wrapper {
     display: block;
-    margin: 35px;
+    margin: 28px;
   }
   .item {
     margin-bottom: 25px;
-    
+    height: 165px;
   }
   .item-contents {
-    
+    height: 145px;
+    min-width: 245px;
   }
+  
 
   /* フッター */
   #footer {
