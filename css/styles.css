@@ -281,6 +281,9 @@ footer img {
   .main-header {
     width: 100%;
   }
+  .main-header {
+    text-align: center;
+  }
 
 /* メイン */
 
