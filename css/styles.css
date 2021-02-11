@@ -270,7 +270,7 @@ footer img {
 
 /* モバイル版
 --------------------------------------------- */
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   
   .wrapper {
     display: block;
@@ -278,8 +278,11 @@ footer img {
 
   .side-header {
     width: 100%;
-    min-height: 100px;
+    min-height: 65px;
+    background: #fff;
   }
+
+  
 
   .top-header {
     width: 100%;
@@ -317,12 +320,22 @@ footer img {
     margin: 28px;
   }
   .item {
+    padding: 10px;
     margin-bottom: 25px;
     height: 165px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
   .item-contents {
     height: 145px;
     min-width: 245px;
+  }
+
+/* コンタクト */
+
+  .contact p {
+    font-size: 10px;
   }
   
 
