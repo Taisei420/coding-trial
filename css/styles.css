@@ -230,6 +230,11 @@ nav {
   align-items: center;
   flex-flow: column;
 }
+
+.sp-block {
+  display: none;
+}
+
 .contact p {
   margin-bottom: 20px;
   color: #513E2F;
@@ -329,13 +334,23 @@ footer img {
   }
   .item-contents {
     height: 145px;
-    min-width: 245px;
+    width: 168px;
+    margin-left: auto;
+  }
+  .item-contents h2 {
+    font-size: 16px;
+  }
+  .item-contents-comment {
+    font-size: 12px;
   }
 
 /* コンタクト */
 
   .contact p {
-    font-size: 10px;
+    font-size: 17px;
+  }
+  .sp-block {
+    display: block;
   }
   
 
