@@ -105,6 +105,7 @@ nav {
   justify-content: flex-end;
   margin: 0 auto;
   color: #262827;
+  
 }
 .main-header a {
   margin: 20px 0 0 38px;
@@ -115,12 +116,14 @@ nav {
   margin: 2.5px;
 }
   
+  
+  
 
 
 
 .item-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows : 1fr 1fr ;
   margin-top: 80px;
 }
@@ -235,7 +238,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px #262827 solid;
+  border: 1px #503e30 solid;
   padding: 10px;
   width: 200px;
   height: 50px;
@@ -251,7 +254,7 @@ nav {
 
 footer {
   background: #513E2F;
-  padding: 85px 0;
+  padding: 86px 0;
 }
 footer p {
   margin: 0 auto;
