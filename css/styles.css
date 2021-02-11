@@ -275,13 +275,29 @@ footer img {
   .wrapper {
     display: block;
   }
+
   .side-header {
     width: 100%;
-    height: 100px;
+    min-height: 100px;
   }
+
   .top-header {
     width: 100%;
   }
+
+  .top-header h1 {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  #right {
+    background-image: url(../images/pic01.jpg);
+    background-size: cover;
+    min-height: 165px;
+  }
+
+  
+
   
 
 /* ナビゲーション */
@@ -296,13 +312,13 @@ footer img {
     display: none;
   }
 
-  .main-header {
+  /* .main-header {
     width: 100%;
   }
 
   .main-header {
     text-align: center;
-  }
+  } */
 
   .item-wrapper {
     display: block;
