@@ -276,7 +276,40 @@ footer img {
 /* モバイル版
 --------------------------------------------- */
 @media (max-width: 600px) {
-  
+
+/* ハンバーガー */
+.menu-btn {
+  position: fixed;
+  top: 0px; 
+  right: 0px; 
+  display: flex;
+  height: 65px;
+  width: 65px;
+  justify-content: center;
+  align-items: center;
+  z-index: 90;
+  background-color: #513E2F;;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  position: absolute;
+}
+.menu-btn span:before {
+  bottom: 8px;
+}
+.menu-btn span:after {
+  top: 8px;
+}
+
+/* トップ */
+
   .wrapper {
     display: block;
   }
