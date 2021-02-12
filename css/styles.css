@@ -324,7 +324,7 @@ footer img {
   }
 
   .side-header img {
-    width: 230px;
+    min-width: 154px;
     height: 20px;
     object-fit: cover;
   }
@@ -334,18 +334,26 @@ footer img {
     width: 100%;
     margin-top: 46px;
     text-align: center;
+    position: relative;
     
   }
 
   .top-header h1 {
     font-size: 20px;
+    left: 65px;
+    bottom: 34px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
   }
     
 
   #right {
     background-image: url(../images/pic01.jpg);
     background-size: cover;
-    min-height: 165px;
+    min-height: 182px;
   }
 
   /* ナビゲーション */
@@ -362,7 +370,7 @@ footer img {
 
   .item-wrapper {
     display: block;
-    margin: 28px;
+    margin: 24px;
   }
   .item {
     padding: 10px;
@@ -404,10 +412,11 @@ footer img {
     width: 100%;
     padding: 33.5px 0;
     position: relative;
+    background: #503e30;
   }
   footer p {
     text-align: center;
-    font-size: 5px;
+    font-size: 0.05rem;
     margin: 0 auto;
   }
   footer img {
