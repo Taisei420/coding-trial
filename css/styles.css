@@ -259,7 +259,7 @@ nav {
 }
 
 footer {
-  background: #513E2F;
+  background: #503e30;
   padding: 86px 0;
   position: relative;
 }
@@ -288,7 +288,7 @@ footer img {
   justify-content: center;
   align-items: center;
   z-index: 90;
-  background-color: #513E2F;;
+  background-color: #503e30;
 }
 .menu-btn span,
 .menu-btn span:before,
@@ -413,8 +413,8 @@ footer img {
     width: 45px;
     height: 45px;
     position: absolute;
-    bottom: 5px;
-    right: 10px;
+    bottom: 10px;
+    right: 5px;
   }
   
 }
