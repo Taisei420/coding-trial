@@ -325,7 +325,7 @@ footer img {
 
   .side-header img {
     min-width: 154px;
-    height: 20px;
+    height: 16px;
     object-fit: cover;
   }
   
@@ -335,13 +335,10 @@ footer img {
     margin-top: 46px;
     text-align: center;
     position: relative;
-    
   }
 
   .top-header h1 {
     font-size: 22px;
-    left: 65px;
-    bottom: 34px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -374,7 +371,6 @@ footer img {
   }
   .item {
     padding: 10px;
-    /* margin-bottom: 25px; */
     margin-top: 25px;
     height: 118px;
     display: flex;
